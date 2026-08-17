@@ -1,0 +1,9 @@
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        nums.sort()
+        n = len(nums) // 2
+
+        candidate = nums[n]
+
+        return candidate
+        
